@@ -1,0 +1,21 @@
+.load__wrapper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.load__btn {
+    /* width: 150px; */
+    font-size: 24px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    color: #ececec;
+    border: 1px solid #ececec;
+    background-color: transparent;
+    transition: border-color 0.3s;
+}
+
+.load__btn:hover {
+    border: 1px solid #61d6fb;
+}
